@@ -27,10 +27,22 @@ function switchLanguage(lang) {
 
     // Translate elements with data-en and data-ar attributes
     document.querySelectorAll('[data-en][data-ar]').forEach(el => {
-        // Don't change innerHTML for elements that contain other elements with their own translations
-        const childElements = el.querySelectorAll('[data-en][data-ar]');
-        if (childElements.length === 0) {
-            el.innerHTML = el.getAttribute(`data-${lang}`);
+        // Find if element has an icon
+        const icon = el.querySelector('i');
+        const translation = el.getAttribute(`data-${lang}`);
+        
+        if (icon) {
+            // Preserve the icon and only replace the text part
+            const iconHtml = icon.outerHTML;
+            // Check direction for icon placement
+            if (lang === 'ar') {
+                el.innerHTML = translation + ' ' + iconHtml;
+            } else {
+                el.innerHTML = iconHtml + ' ' + translation;
+            }
+        } else {
+            // No icon, just replace content
+            el.innerHTML = translation;
         }
     });
 
@@ -39,8 +51,8 @@ function switchLanguage(lang) {
         el.textContent = el.getAttribute(`data-${lang}`);
     });
 
-    // Translate placeholders for input and textarea elements
-    document.querySelectorAll('input[data-placeholder-en][data-placeholder-ar], textarea[data-placeholder-en][data-placeholder-ar]').forEach(el => {
+    // Translate placeholders
+    document.querySelectorAll('[data-placeholder-en][data-placeholder-ar]').forEach(el => {
         el.placeholder = el.getAttribute(`data-placeholder-${lang}`);
     });
 }
@@ -48,25 +60,11 @@ function switchLanguage(lang) {
 // Initialize language on page load
 function initLanguage() {
     const savedLang = localStorage.getItem('language') || 'en';
-    if (savedLang === 'ar') {
-        switchLanguage('ar');
-    }
+    switchLanguage(savedLang);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize language
-    initLanguage();
-
-    // Language switcher button
-    const langBtn = document.getElementById('langBtn');
-    if (langBtn) {
-        langBtn.addEventListener('click', () => {
-            const newLang = currentLang === 'en' ? 'ar' : 'en';
-            switchLanguage(newLang);
-        });
-    }
-
-    // Initialize all functions
+    // Initializations
     initMobileMenu();
     initSmoothScroll();
     initActiveNavigation();
@@ -78,6 +76,18 @@ document.addEventListener('DOMContentLoaded', function() {
     initAddonGrids();
     initFilters();
     initSectionFilters();
+
+    // Language switcher MUST be last to catch dynamic content
+    initLanguage();
+
+    // Language switcher button
+    const langBtn = document.getElementById('langBtn');
+    if (langBtn) {
+        langBtn.addEventListener('click', () => {
+            const newLang = currentLang === 'en' ? 'ar' : 'en';
+            switchLanguage(newLang);
+        });
+    }
 });
 
 /* ========================================
