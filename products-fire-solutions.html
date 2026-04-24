@@ -92,7 +92,7 @@
                 <p data-en="Watch our fire safety systems in action through these short demonstration clips." data-ar="شاهد أنظمة السلامة من الحرائق لدينا وهي تعمل من خلال هذه المقاطع التوضيحية القصيرة." style="font-size: 18px; color: var(--text-light); max-width: 650px; margin: 0 auto;">Watch our fire safety systems in action through these short demonstration clips.</p>
             </div>
             
-            <div class="video-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; max-width: 1000px; margin: 0 auto;">
+            <div class="video-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto;">
                 <div class="video-card" style="border-radius: 18px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08); background: #000; position: relative; aspect-ratio: 16/9;">
                     <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="toggleVideoFullscreen(this)">
                         <source src="videos/fire-demo.mp4" type="video/mp4">
@@ -124,6 +124,9 @@
     <!-- Mobile responsiveness helper -->
     <style>
         @media (max-width: 768px) {
+            .video-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 15px !important; }
+        }
+        @media (max-width: 480px) {
             .video-grid { grid-template-columns: 1fr !important; gap: 15px !important; }
         }
     </style>
