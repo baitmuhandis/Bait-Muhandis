@@ -2164,7 +2164,7 @@ function showProductModal(productId, addonLabel = null) {
 
     const techHtml = specsRows
         ? `<table class="tech-specs-table"><tbody>${specsRows}</tbody></table>`
-        : `<p class="no-data-msg"><i class="fas fa-info-circle"></i> No technical specifications available.</p>`;
+        : `<p class="no-data-msg" data-en="No technical specifications available." data-ar="لا توجد مواصفات فنية متاحة."><i class="fas fa-info-circle"></i> No technical specifications available.</p>`;
 
     /* ── Optional / Accessories ─────────────────────────────── */
     const options = product.options || [];
@@ -2175,7 +2175,7 @@ function showProductModal(productId, addonLabel = null) {
                 <div class="optional-card-body">
                     <h4>${o.label}</h4>
                     <p>${o.description ? o.description.substring(0, 90) + (o.description.length > 90 ? '…' : '') : o.value}</p>
-                    <span class="optional-link">View details <i class="fas fa-arrow-right"></i></span>
+                    <span class="optional-link" data-en="View details" data-ar="عرض التفاصيل">View details <i class="fas fa-arrow-right"></i></span>
                 </div>
             </div>
         `).join('')}</div>`
@@ -2199,9 +2199,9 @@ function showProductModal(productId, addonLabel = null) {
             </div>
             <div class="modal-hero-info">
                 <div class="modal-product-badge"><i class="fas fa-tag"></i> ${product.code}</div>
-                <h2 class="modal-product-name">${product.name}</h2>
-                <p class="modal-product-desc">${product.description}</p>
-                <a href="mailto:info@baitmuhandis.com" class="btn btn-primary modal-cta" onclick="closeProductModal()">
+                <h2 class="modal-product-name" data-en="${product.name}" data-ar="${product.name_ar || product.name}">${product.name}</h2>
+                <div class="modal-product-desc" data-en='${product.description}' data-ar='${product.description_ar || product.description}'>${product.description}</div>
+                <a href="mailto:info@baitmuhandis.com" class="btn btn-primary modal-cta" onclick="closeProductModal()" data-en="Request a Quote" data-ar="طلب عرض سعر">
                     <i class="fas fa-phone"></i> Request a Quote
                 </a>
             </div>
@@ -2209,10 +2209,10 @@ function showProductModal(productId, addonLabel = null) {
 
         <!-- Tabs -->
         <div class="modal-tabs">
-            <button class="modal-tab active" data-tab="overview">
+            <button class="modal-tab active" data-tab="overview" data-en="Overview" data-ar="نظرة عامة">
                 <i class="fas fa-info-circle"></i> Overview
             </button>
-            <button class="modal-tab" data-tab="technical">
+            <button class="modal-tab" data-tab="technical" data-en="Technical Specs" data-ar="المواصفات الفنية">
                 <i class="fas fa-flask"></i> Technical Specs
             </button>
         </div>
@@ -2222,11 +2222,11 @@ function showProductModal(productId, addonLabel = null) {
             <div class="modal-tab-panel active" data-panel="overview">
                 ${featuresHtml
                     ? `<ul class="modal-features-list">${featuresHtml}</ul>`
-                    : `<p class="no-data-msg"><i class="fas fa-info-circle"></i> No feature list available.</p>`}
+                    : `<p class="no-data-msg" data-en="No feature list available." data-ar="لا توجد قائمة مميزات متاحة."><i class="fas fa-info-circle"></i> No feature list available.</p>`}
                 
                 ${options.length > 0 ? `
                     <div class="modal-section-divider"></div>
-                    <h3 class="modal-section-title"><i class="fas fa-plus-circle"></i> Optional Accessories</h3>
+                    <h3 class="modal-section-title" data-en="Optional Accessories" data-ar="ملحقات اختيارية"><i class="fas fa-plus-circle"></i> Optional Accessories</h3>
                     ${optionalHtml}
                 ` : ''}
             </div>
@@ -2248,6 +2248,12 @@ function showProductModal(productId, addonLabel = null) {
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Re-run translation for dynamic content
+    if (typeof switchLanguage === 'function') {
+        const savedLang = localStorage.getItem('language') || 'en';
+        switchLanguage(savedLang);
+    }
 }
 
 

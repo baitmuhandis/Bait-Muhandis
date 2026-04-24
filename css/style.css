@@ -1,4 +1,4 @@
-/* ========================================
+﻿/* ========================================
    FireTech Supplies - Main Stylesheet
    ======================================== */
 
@@ -1311,6 +1311,21 @@ body.rtl .footer-links ul,
 body.rtl .footer-products ul {
     padding-right: 0;
     padding-left: 0;
+}
+
+body.rtl .footer ul li a:hover {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+body.rtl .contact-list li {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+body.rtl .contact-list li a {
+    direction: ltr;
+    unicode-bidi: isolate;
 }
 
 body.rtl .footer-social .social-icons {
