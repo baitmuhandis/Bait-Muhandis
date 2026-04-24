@@ -720,6 +720,19 @@ document.addEventListener('keydown', function(e) {
 });
 
 /* ========================================
+   Video Fullscreen Support
+   ======================================== */
+function toggleVideoFullscreen(videoElement) {
+    if (videoElement.requestFullscreen) {
+        videoElement.requestFullscreen();
+    } else if (videoElement.webkitRequestFullscreen) { /* Safari */
+        videoElement.webkitRequestFullscreen();
+    } else if (videoElement.msRequestFullscreen) { /* IE11 */
+        videoElement.msRequestFullscreen();
+    }
+}
+
+/* ========================================
    Console Welcome Message
    ======================================== */
 console.log('%c🔥 Welcome to FireTech Supplies!', 'color: #e63946; font-size: 24px; font-weight: bold;');
