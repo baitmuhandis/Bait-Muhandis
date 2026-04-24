@@ -1,4 +1,4 @@
-const productData = {
+﻿const productData = {
     // Fire Fighting - Fire Extinguishers
     'extinguisher-bavaria-phoenix': {
         name: 'Bavaria Phoenix Fire Extinguisher',
@@ -2201,7 +2201,7 @@ function showProductModal(productId, addonLabel = null) {
                 <div class="modal-product-badge"><i class="fas fa-tag"></i> ${product.code}</div>
                 <h2 class="modal-product-name" data-en="${product.name}" data-ar="${product.name_ar || product.name}">${product.name}</h2>
                 <div class="modal-product-desc" data-en='${product.description}' data-ar='${product.description_ar || product.description}'>${product.description}</div>
-                <a href="mailto:info@baitmuhandis.com" class="btn btn-primary modal-cta" onclick="closeProductModal()" data-en="Request a Quote" data-ar="طلب عرض سعر">
+                <a href="mailto:baitmuhandis@gmail.com" class="btn btn-primary modal-cta" onclick="closeProductModal()" data-en="Request a Quote" data-ar="طلب عرض سعر">
                     <i class="fas fa-phone"></i> Request a Quote
                 </a>
             </div>
