@@ -341,6 +341,7 @@ const productData = {
             'images/fire-fighting/taurus-double-act-specs.png'
         ],
         datasheetImage: 'images/fire-fighting/taurus-double-act-ds.png',
+        pdf: 'pdf/taurus-double.pdf',
         specs: [
             { label: 'Dimensions (WxHxD)', value: '800 x 1600 x 300 mm' },
             { label: 'Cabinet Material', value: '1.5 mm Cold Rolled Steel' },
