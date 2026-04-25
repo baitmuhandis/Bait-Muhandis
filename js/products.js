@@ -2205,10 +2205,9 @@ function showProductModal(productId, addonLabel = null) {
                 <a href="mailto:baitmuhandis@gmail.com" class="btn btn-primary modal-cta" onclick="closeProductModal()" data-en="Request a Quote" data-ar="طلب عرض سعر">
                     <i class="fas fa-phone"></i> Request a Quote
                 </a>
-                ${product.pdf ? `
-                <a href="${product.pdf}" class="btn btn-secondary modal-cta" target="_blank" data-en="Technical PDF" data-ar="ملف فني" style="margin-left: 10px;">
+                <a href="${product.pdf ? product.pdf : '#'}" class="btn btn-secondary modal-cta" target="_blank" data-en="Technical PDF" data-ar="ملف فني" style="margin-left: 10px;">
                     <i class="fas fa-file-pdf"></i> Technical PDF
-                </a>` : ''}
+                </a>
             </div>
         </div>
 
