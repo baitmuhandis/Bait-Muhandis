@@ -130,26 +130,28 @@ const productData = {
         code: 'FE-FOAM-003',
         description: 'Bavaria TORNADO-F is a high-performance wheeled foam fire extinguisher featuring a stainless steel bright elegant shape. It is optimum for use in petrol stations, boiler rooms, and high-hazard areas. The system uses a pre-mixed AFFF 3% foam concentrate and features an external nitrogen pressure cylinder for immediate readiness.',
         images: [
-            'images/fire-fighting/extinguishers/foam/foam-tornado-1.png',
-            'images/fire-fighting/extinguishers/foam/foam-tornado-ds-1.png',
-            'images/fire-fighting/extinguishers/foam/foam-tornado-ds-2.png'
+            'images/fire-fighting/extinguishers/foam/tornado-foam-main.png',
+            'images/fire-fighting/extinguishers/foam/tornado-foam-datasheet.png'
         ],
-        datasheetImage: 'images/fire-fighting/extinguishers/foam/foam-tornado-ds-2.png',
+        datasheetImage: 'images/fire-fighting/extinguishers/foam/tornado-foam-datasheet.png',
+        pdf: 'pdf/tornado-foam.pdf',
         specs: [
+            { label: 'Type', value: 'TORNADO -F' },
             { label: 'Capacity', value: '45L / 90L' },
             { label: 'Agent', value: 'BAVARIA Typhoon AFFF 3%' },
+            { label: 'Fire Rating', value: 'IA/IA' },
             { label: 'Shell Material', value: 'Stainless Steel' },
-            { label: 'Testing Pressure', value: '35 bar' },
             { label: 'Propellant Gas', value: 'N2 (External Cylinder)' },
-            { label: 'Certification', value: 'DIN/EN 1866, TUV Approved' }
+            { label: 'Operating Temp', value: '+5°C to +60°C' },
+            { label: 'Certification', value: 'DIN/EN 1866' }
         ],
         features: [
-            'Supreme extinguishing performance rating IA/IA',
-            'External pressure cylinder for maximum reliability',
-            'Easy to maneuver on a carriage with rollers',
-            'Equipped with reinforced rubber hose for control',
-            'Chrome-plated valve head with safety valve',
-            'Optimum for petrol stations and boiler rooms'
+            'Supreme extinguishing efficiency',
+            'One man-operated for easy and efficient use',
+            'Propelled with external nitrogen cylinder',
+            'Equipped with reinforced rubber hose',
+            'High-grade stainless steel cylinder with bright finish',
+            'Supported on a carriage with rollers for easy maneuvering'
         ]
     },
 
