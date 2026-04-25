@@ -104,6 +104,7 @@ const productData = {
             'images/fire-fighting/extinguishers/sigma6-datasheet-ar-2.png'
         ],
         datasheetImage: 'images/fire-fighting/extinguishers/sigma6-datasheet-ar-1.png',
+        pdf: 'pdf/sigma-6kg.pdf',
         specs: [
             { label: 'Model', value: 'SIGMA 6' },
             { label: 'Capacity', value: '6kg' },
