@@ -1,4 +1,4 @@
-﻿const productData = {
+const productData = {
     // Fire Fighting - Fire Extinguishers
     'extinguisher-bavaria-phoenix': {
         name: 'Bavaria Phoenix Fire Extinguisher',
@@ -10,6 +10,7 @@
             'images/fire-fighting/extinguisher-datasheet-2.png'
         ],
         datasheetImage: 'images/fire-fighting/extinguisher-datasheet-1.png',
+        pdf: 'pdf/phoenix.pdf',
         specs: [
             { label: 'Capacity', value: '4kg / 6kg' },
             { label: 'Agent', value: 'Bavaria Superlative ABC Powder' },
@@ -2204,6 +2205,10 @@ function showProductModal(productId, addonLabel = null) {
                 <a href="mailto:baitmuhandis@gmail.com" class="btn btn-primary modal-cta" onclick="closeProductModal()" data-en="Request a Quote" data-ar="طلب عرض سعر">
                     <i class="fas fa-phone"></i> Request a Quote
                 </a>
+                ${product.pdf ? `
+                <a href="${product.pdf}" class="btn btn-secondary modal-cta" target="_blank" data-en="Technical PDF" data-ar="ملف فني" style="margin-left: 10px;">
+                    <i class="fas fa-file-pdf"></i> Technical PDF
+                </a>` : ''}
             </div>
         </div>
 
