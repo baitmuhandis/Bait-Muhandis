@@ -71,6 +71,7 @@ const productData = {
             'images/fire-fighting/extinguishers/abc/abc-firesearch-capacities.png'
         ],
         datasheetImage: 'images/fire-fighting/extinguishers/abc/abc-firesearch-ds-1.png',
+        pdf: 'pdf/firesearch-co2.pdf',
         specs: [
             { label: 'System Type', value: 'Pre-engineered Modular System' },
             { label: 'Agent', value: 'ABC Dry Powder / Clean Agent' },
