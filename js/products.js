@@ -160,6 +160,7 @@ const productData = {
             'images/fire-fighting/taurus-cabinet.png',
             'images/fire-fighting/taurus-datasheet-1.png'
         ],
+        pdf: 'pdf/taurus-80.pdf',
         specs: [
             { label: 'Dimensions', value: '800 x 800 x 300 mm' },
             { label: 'Material', value: '1.5mm Cold Rolled Steel' },
