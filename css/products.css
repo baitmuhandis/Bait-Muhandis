@@ -1199,6 +1199,16 @@
     margin-top: 4px;
 }
 
+.modal-cta.btn-secondary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.modal-cta.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--bg-white);
+}
+
 /* Tab bar */
 .modal-tabs {
     display: flex;
