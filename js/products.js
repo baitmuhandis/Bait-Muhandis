@@ -189,8 +189,9 @@ const productData = {
                 label: 'Delivery Hosereel', 
                 value: 'Reinforced Rubber Hose (19mm / 25mm)', 
                 description: 'European-made reinforced rubber delivery hose reel. Standard components for fire cabinets with 19 mm (¾ inch) x 30 m / 25 mm (1 inch) x 30 m. Built for up to 12 bar working pressure and fully EN694 approved.',
-                image: 'images/fire-fighting/options/delivery-hosereel-product.png',
+                image: 'images/fire-fighting/options/delivery-hosereel-red.png',
                 images: [
+                    'images/fire-fighting/options/delivery-hosereel-red.png',
                     'images/fire-fighting/options/delivery-hosereel-product.png',
                     'images/fire-fighting/options/delivery-hosereel-ds.png'
                 ],
@@ -373,8 +374,9 @@ const productData = {
                 label: 'Delivery Hosereel',
                 value: 'Reinforced Rubber Hose (19mm / 25mm)',
                 description: 'European-made reinforced rubber delivery hose reel. Standard components for fire cabinets with 19 mm (¾ inch) x 30 m / 25 mm (1 inch) x 30 m. Built for up to 12 bar working pressure and fully EN694 approved.',
-                image: 'images/fire-fighting/options/delivery-hosereel-product.png',
+                image: 'images/fire-fighting/options/delivery-hosereel-red.png',
                 images: [
+                    'images/fire-fighting/options/delivery-hosereel-red.png',
                     'images/fire-fighting/options/delivery-hosereel-product.png',
                     'images/fire-fighting/options/delivery-hosereel-ds.png'
                 ],
