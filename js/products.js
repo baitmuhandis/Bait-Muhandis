@@ -315,8 +315,8 @@ const productData = {
                     { label: 'Inlet Fitting', value: 'Tail ND 27.5 mm' }
                 ]
             },
-            {
-                label: 'Gate Valve', 
+            /* {
+                label: \u0027Gate Valve\u0027, 
                 value: '1.5" or 2.5" inch', 
                 description: 'Forged brass finished gate valve used as a Fire Dept. outlet connection. UL/FM approved.',
                 image: 'images/fire-fighting/options/gate-valve.jpg',
@@ -332,7 +332,7 @@ const productData = {
                     { label: 'Threads', value: 'NPT or BSP' },
                     { label: 'Approval', value: 'UL and FM' }
                 ]
-            }
+            } */
         ]
     },
     'cabinet-taurus-double-act': {
@@ -374,9 +374,9 @@ const productData = {
                 label: 'Delivery Hosereel',
                 value: 'Reinforced Rubber Hose (19mm / 25mm)',
                 description: 'European-made reinforced rubber delivery hose reel. Standard components for fire cabinets with 19 mm (¾ inch) x 30 m / 25 mm (1 inch) x 30 m. Built for up to 12 bar working pressure and fully EN694 approved.',
-                image: 'https://www.google.com/search?vsrid=CKyP-Z78lfOoMxACGAEiJGJhMzg0Yzg2LTQ5ZTUtNDdmMC1iYzQ1LWNkM2NkZDhkNDc3YjJ7IgJ3ZSgpQnMKLmxmZS1kdW1teToyYjc4ZDBjNS02OTZlLTQ0Y2UtOWMzZS0wNWNjMTdmNzE0OWESQQo_L2Jucy93ZS9ib3JnL3dlL2Jucy9sZW5zLWZyb250ZW5kLWFwaS9wcm9kLmxlbnMtZnJvbnRlbmQtYXBpLzE4OKfYpp7qjpQD&vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABENUGGIAIJQAAgD8&udm=26&lns_mode=un&source=lns.web.gsbubb&vsdim=853,1024&gsessionid=uK_HOvDvsQRVSiMidprulRq7lTo94CAu8Y1sqQl8RQsiyOoJhtjTvQ&lsessionid=fw0ITjs0Ownbc1G3RTww1JAkZ55l6hgq5IkEhnQtygx55OI3Lfi03A&lns_surface=26&authuser=0&lns_vfs=e&qsubts=1777320344403&biw=1366&bih=641&hl=en-EG',
+                image: 'images/fire-fighting/options/delivery-hosereel-red.png',
                 images: [
-                    'https://www.google.com/search?vsrid=CKyP-Z78lfOoMxACGAEiJGJhMzg0Yzg2LTQ5ZTUtNDdmMC1iYzQ1LWNkM2NkZDhkNDc3YjJ7IgJ3ZSgpQnMKLmxmZS1kdW1teToyYjc4ZDBjNS02OTZlLTQ0Y2UtOWMzZS0wNWNjMTdmNzE0OWESQQo_L2Jucy93ZS9ib3JnL3dlL2Jucy9sZW5zLWZyb250ZW5kLWFwaS9wcm9kLmxlbnMtZnJvbnRlbmQtYXBpLzE4OKfYpp7qjpQD&vsint=CAIqDAoCCAcSAggKGAEgATojChYNAAAAPxUAAAA_HQAAgD8lAACAPzABENUGGIAIJQAAgD8&udm=26&lns_mode=un&source=lns.web.gsbubb&vsdim=853,1024&gsessionid=uK_HOvDvsQRVSiMidprulRq7lTo94CAu8Y1sqQl8RQsiyOoJhtjTvQ&lsessionid=fw0ITjs0Ownbc1G3RTww1JAkZ55l6hgq5IkEhnQtygx55OI3Lfi03A&lns_surface=26&authuser=0&lns_vfs=e&qsubts=1777320344403&biw=1366&bih=641&hl=en-EG',
+                    'images/fire-fighting/options/delivery-hosereel-red.png',
                     'images/fire-fighting/options/delivery-hosereel-product.png',
                     'images/fire-fighting/options/delivery-hosereel-ds.png'
                 ],
@@ -500,8 +500,8 @@ const productData = {
                     { label: 'Inlet Fitting', value: 'Tail ND 27.5 mm' }
                 ]
             },
-            {
-                label: 'Gate Valve', 
+            /* {
+                label: \u0027Gate Valve\u0027, 
                 value: '1.5" or 2.5" inch', 
                 description: 'Forged brass finished gate valve used as a Fire Dept. outlet connection. UL/FM approved.',
                 image: 'images/fire-fighting/options/gate-valve.jpg',
@@ -517,7 +517,7 @@ const productData = {
                     { label: 'Threads', value: 'NPT or BSP' },
                     { label: 'Approval', value: 'UL and FM' }
                 ]
-            }
+            } */
         ]
     },
     'hose-bavaria-1': {
@@ -641,8 +641,8 @@ const productData = {
                     { label: 'Approval', value: 'UL and FM' }
                 ]
             },
-            {
-                label: 'Gate Valve', 
+           /* {
+                label: \u0027Gate Valve\u0027, 
                 value: '1.5" or 2.5" inch', 
                 description: 'Forged brass finished gate valve used as a Fire Dept. outlet connection. UL/FM approved.',
                 image: 'images/fire-fighting/options/gate-valve.jpg',
@@ -658,7 +658,7 @@ const productData = {
                     { label: 'Threads', value: 'NPT or BSP' },
                     { label: 'Approval', value: 'UL and FM' }
                 ]
-            }
+            } */
         ]
     },
 
