@@ -408,7 +408,7 @@ function initActiveNavigation() {
    ======================================== */
 function initScrollAnimations() {
     const animatedElements = document.querySelectorAll(
-        '.feature-card, .product-card, .product-item, .service-card, .stat, .contact-item, .about-text, .about-image, .about-content-text, .about-hero-image, .stat-card'
+        '.feature-card, .product-card, .product-item, .service-card, .stat, .contact-item, .about-text, .about-image, .about-content-text, .about-hero-image, .stat-card, .scroll-animate'
     );
 
     // Add scroll-animate class to all elements

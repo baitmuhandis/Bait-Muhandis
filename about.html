@@ -37,6 +37,7 @@
                 <ul class="nav-list">
                     <li><a href="index.html" class="nav-link" data-en="Products" data-ar="المنتجات">Products</a></li>
                     <li><a href="about.html" class="nav-link active" data-en="About Us" data-ar="من نحن">About Us</a></li>
+                    <li><a href="#footer-suppliers" class="nav-link" data-en="Our Suppliers" data-ar="موردونا">Our Suppliers</a></li>
                 </ul>
             </nav>
             <button class="lang-btn" id="langBtn" aria-label="Switch Language">
@@ -48,69 +49,153 @@
         </div>
     </header>
 
-    <!-- Page Title -->
-    <section class="about-hero">
-        <div class="container">
-            <h1 data-en="About Us" data-ar="من نحن">About Us</h1>
-            <p data-en="Your Trusted Partner Since 2009" data-ar="شريكك الموثوق منذ 2009">Your Trusted Partner Since 2009</p>
+    <!-- About Hero -->
+    <section class="about-hero" style="background: linear-gradient(135deg, var(--primary-color) 0%, #1a1a2e 100%); padding: 100px 0 80px; text-align: center; position: relative; overflow: hidden;">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%, rgba(230,57,70,0.18) 0%, transparent 60%);pointer-events:none;"></div>
+        <div class="container" style="position:relative;z-index:1;">
+            <div style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;padding:8px 20px;margin-bottom:28px;">
+                <i class="fas fa-certificate" style="color:#e63946;font-size:14px;"></i>
+                <span style="color:rgba(255,255,255,0.85);font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;" data-en="Certified Distributor" data-ar="موزع معتمد">Certified Distributor</span>
+            </div>
+            <h1 style="color:#fff;font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;margin-bottom:16px;line-height:1.15;" data-en="Bait Muhandis" data-ar="بيت المهندس">Bait Muhandis</h1>
+            <p style="color:rgba(255,255,255,0.7);font-size:1.2rem;font-weight:400;margin-bottom:0;" data-en="Engineering Solutions | Certified Distributor" data-ar="حلول هندسية | موزع معتمد">Engineering Solutions | Certified Distributor</p>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about-section">
+    <!-- Company Overview -->
+    <section style="padding: 80px 0; background: #fff;">
         <div class="container">
-            <div class="about-flex-grid">
-                <div class="about-content-text scroll-animate">
-                    <h2 data-en="Engineers House" data-ar="بيت المهندسين">Engineers House</h2>
-                    <p data-en="Since our inception in 2009, Bait Muhandis has stood as a beacon of quality and reliability in the engineering and networking sector. We believe in providing robust solutions, ranging from high-performance cables and professional tools to advanced networking equipment and fire safety solutions." data-ar="منذ تأسيسنا في عام 2009، تقف بيت المهندسين كمنارة للجودة والموثوقية في قطاع الهندسة والشبكات. نؤمن بتوفير حلول قوية، تتراوح من الكابلات عالية الأداء والأدوات المهنية إلى معدات الشبكات المتقدمة وحلول السلامة من الحرائق.">Since our inception in 2009, Bait Muhandis has stood as a beacon of quality and reliability in the engineering and networking sector. We believe in providing robust solutions, ranging from high-performance cables and professional tools to advanced networking equipment and fire safety solutions.</p>
-                    <p data-en="Our mission is to empower operations and infrastructures with best-in-class components, ensuring seamless connectivity and uncompromised safety across all industries we serve." data-ar="مهمتنا هي تمكين العمليات والبنى التحتية بمكونات هي الأفضل في فئتها، مما يضمن اتصالا لا تشوبه شائبة وأمانا لا هوادة فيه في جميع الصناعات التي نخدمها.">Our mission is to empower operations and infrastructures with best-in-class components, ensuring seamless connectivity and uncompromised safety across all industries we serve.</p>
-                </div>
-                <div class="about-hero-image scroll-animate">
-                    <i class="fas fa-building"></i>
-                </div>
-            </div>
-            
-            <div class="stats-container-grid">
-                <div class="stat-card scroll-animate">
-                    <i class="fas fa-calendar-check"></i>
-                    <h3 class="stat-number" data-target="15">0</h3>
-                    <p data-en="Years of Experience" data-ar="سنوات من الخبرة">Years of Experience</p>
-                </div>
-                <div class="stat-card scroll-animate">
-                    <i class="fas fa-box-open"></i>
-                    <h3 class="stat-number" data-target="1000">0</h3>
-                    <p data-en="Products" data-ar="المنتجات">Products</p>
-                </div>
-                <div class="stat-card scroll-animate">
-                    <i class="fas fa-users"></i>
-                    <h3 class="stat-number" data-target="5000">0</h3>
-                    <p data-en="Happy Clients" data-ar="عملاء سعداء">Happy Clients</p>
-                </div>
+            <div style="max-width:820px;margin:0 auto;text-align:center;">
+                <div style="width:60px;height:4px;background:linear-gradient(90deg,#e63946,#c1121f);border-radius:2px;margin:0 auto 28px;"></div>
+                <p style="font-size:1.15rem;line-height:1.9;color:#444;" data-en="Bait Muhandis is a trusted provider of advanced engineering solutions in Egypt, specializing in power, networking, and fire protection systems. As a certified distributor of ECAB Cables and Bavaria Fire Fighting Systems, we deliver reliable, high-quality products tailored to meet the demands of modern infrastructure." data-ar="بيت المهندس هو مزود موثوق لحلول هندسية متقدمة في مصر، متخصص في أنظمة الطاقة والشبكات والحماية من الحريق. بوصفنا موزعًا معتمدًا لكابلات ECAB وأنظمة مكافحة الحريق Bavaria، نقدم منتجات موثوقة عالية الجودة مصممة لتلبية متطلبات البنية التحتية الحديثة.">Bait Muhandis is a trusted provider of advanced engineering solutions in Egypt, specializing in power, networking, and fire protection systems. As a certified distributor of ECAB Cables and Bavaria Fire Fighting Systems, we deliver reliable, high-quality products tailored to meet the demands of modern infrastructure.</p>
             </div>
         </div>
     </section>
 
-    
-    <!-- Contact Center Section -->
-    <section class="contact-center-section" style="padding: 80px 0; background: var(--bg-light);">
+    <!-- Our Solutions -->
+    <section style="padding: 80px 0; background: #f8f9fa;">
         <div class="container">
-            <div class="section-title" style="text-align: center; margin-bottom: 50px;">
-                <i class="fas fa-headset" style="font-size: 48px; color: var(--primary-color); margin-bottom: 20px;"></i>
-                <h2 data-en="Contact Center" data-ar="مركز الاتصال">Contact Center</h2>
-                <p data-en="Reach out to our experts for technical support and inquiries." data-ar="تواصل مع خبرائنا للدعم الفني والاستفسارات.">Reach out to our experts for technical support and inquiries.</p>
+            <div style="text-align:center;margin-bottom:60px;">
+                <h2 style="font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;color:var(--primary-color);margin-bottom:12px;" data-en="Our Solutions" data-ar="حلولنا">Our Solutions</h2>
+                <div style="width:50px;height:3px;background:#e63946;border-radius:2px;margin:0 auto;"></div>
             </div>
-            <div class="contact-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
-                <div class="contact-card scroll-animate" style="background: white; padding: 40px; border-radius: 20px; text-align: center; box-shadow: var(--shadow);">
-                    <i class="fas fa-phone-alt" style="font-size: 32px; color: var(--secondary-color); margin-bottom: 20px;"></i>
-                    <h3 data-en="Phone Support" data-ar="الدعم الهاتفي">Phone Support</h3>
-                    <p style="font-size: 18px; font-weight: 600; color: var(--primary-color);">+20 101 412 5240</p>
-                    <p style="font-size: 18px; font-weight: 600; color: var(--primary-color);">+20 110 541 0176</p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:36px;">
+
+                <!-- ECAB Card -->
+                <div class="scroll-animate" style="background:#fff;border-radius:20px;padding:44px 36px;box-shadow:0 4px 30px rgba(0,0,0,0.07);border-top:4px solid #1a1a2e;transition:transform .3s;" onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;">
+                        <div style="width:54px;height:54px;border-radius:14px;background:#fff;border:1px solid #eee;display:flex;align-items:center;justify-content:center;flex-shrink:0;overflow:hidden;padding:2px;">
+                            <img src="images/ecab-logo.png" alt="ECAB Logo" style="width:100%;height:100%;object-fit:contain;">
+                        </div>
+                        <div>
+                            <h3 style="font-size:1.3rem;font-weight:800;color:#1a1a2e;margin:0 0 4px;" data-en="ECAB Cable Systems" data-ar="أنظمة كابلات ECAB">ECAB Cable Systems</h3>
+                            <span style="font-size:12px;color:#888;font-weight:500;letter-spacing:1px;text-transform:uppercase;">Certified Distributor</span>
+                        </div>
+                    </div>
+                    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px;">
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-check-circle" style="color:#1a1a2e;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Premium power, control, and instrumentation cables" data-ar="كابلات طاقة وتحكم وقياس ممتازة">Premium power, control, and instrumentation cables</span>
+                        </li>
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-check-circle" style="color:#1a1a2e;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="High-performance networking and data cables" data-ar="كابلات شبكات وبيانات عالية الأداء">High-performance networking and data cables</span>
+                        </li>
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-check-circle" style="color:#1a1a2e;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Advanced technologies designed for the Egyptian market" data-ar="تقنيات متقدمة مصممة للسوق المصري">Advanced technologies designed for the Egyptian market</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="contact-card scroll-animate" style="background: white; padding: 40px; border-radius: 20px; text-align: center; box-shadow: var(--shadow);">
-                    <i class="fab fa-whatsapp" style="font-size: 32px; color: #25D366; margin-bottom: 20px;"></i>
-                    <h3 data-en="WhatsApp" data-ar="واتساب">WhatsApp</h3>
-                    <p data-en="Chat with us for quick responses" data-ar="دردش معنا للردود السريعة">Chat with us for quick responses</p>
-                    <a href="https://wa.me/201014125240" class="btn" style="margin-top: 15px; display: inline-block;" data-en="Message Now" data-ar="أرسل رسالة الآن">Message Now</a>
+
+                <!-- Bavaria Card -->
+                <div class="scroll-animate" style="background:#fff;border-radius:20px;padding:44px 36px;box-shadow:0 4px 30px rgba(0,0,0,0.07);border-top:4px solid #e63946;transition:transform .3s;" onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;">
+                        <div style="width:54px;height:54px;border-radius:14px;background:linear-gradient(135deg,#e63946,#c1121f);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <i class="fas fa-fire-extinguisher" style="color:#fff;font-size:22px;"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size:1.3rem;font-weight:800;color:#c1121f;margin:0 0 4px;" data-en="Bavaria Fire Fighting Systems" data-ar="أنظمة مكافحة الحريق Bavaria">Bavaria Fire Fighting Systems</h3>
+                            <span style="font-size:12px;color:#888;font-weight:500;letter-spacing:1px;text-transform:uppercase;">Certified Distributor</span>
+                        </div>
+                    </div>
+                    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px;">
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-fire" style="color:#e63946;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Bavaria Phoenix – advanced fire suppression systems" data-ar="Bavaria Phoenix – أنظمة إخماد الحرائق المتقدمة">Bavaria Phoenix – advanced fire suppression systems</span>
+                        </li>
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-fire" style="color:#e63946;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Bavaria Taurus – wall-mounted steel fire cabinets" data-ar="Bavaria Taurus – خزائن حريق فولاذية جدارية">Bavaria Taurus – wall-mounted steel fire cabinets</span>
+                        </li>
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-fire" style="color:#e63946;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Bavaria Sigma (6kg) – dependable fire extinguishers" data-ar="Bavaria Sigma (6 كجم) – طفايات حريق موثوقة">Bavaria Sigma (6kg) – dependable fire extinguishers</span>
+                        </li>
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-fire" style="color:#e63946;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Bavaria CO₂ extinguishers (2kg, 6kg, 10kg)" data-ar="طفايات Bavaria CO₂ (2 كجم، 6 كجم، 10 كجم)">Bavaria CO₂ extinguishers (2kg, 6kg, 10kg)</span>
+                        </li>
+                        <li style="display:flex;align-items:flex-start;gap:12px;">
+                            <i class="fas fa-fire" style="color:#e63946;margin-top:3px;flex-shrink:0;"></i>
+                            <span style="color:#555;" data-en="Bavaria Taurus Double – double fire cabinet systems" data-ar="Bavaria Taurus Double – أنظمة خزائن الحريق المزدوجة">Bavaria Taurus Double – double fire cabinet systems</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section style="padding:80px 0;background:#fff;">
+        <div class="container">
+            <div style="text-align:center;margin-bottom:60px;">
+                <h2 style="font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;color:var(--primary-color);margin-bottom:12px;" data-en="Why Choose Bait Muhandis?" data-ar="لماذا تختار بيت المهندس؟">Why Choose Bait Muhandis?</h2>
+                <div style="width:50px;height:3px;background:#e63946;border-radius:2px;margin:0 auto;"></div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;">
+                <div class="scroll-animate" style="text-align:center;padding:36px 24px;background:#f8f9fa;border-radius:18px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 8px 30px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+                    <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#e63946,#c1121f);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                        <i class="fas fa-tags" style="color:#fff;font-size:26px;"></i>
+                    </div>
+                    <h4 style="font-weight:700;color:#1a1a2e;margin-bottom:8px;" data-en="Competitive Pricing" data-ar="أسعار تنافسية">Competitive Pricing</h4>
+                    <p style="color:#666;font-size:.95rem;" data-en="Best market prices without compromising quality." data-ar="أفضل أسعار السوق دون المساس بالجودة.">Best market prices without compromising quality.</p>
+                </div>
+                <div class="scroll-animate" style="text-align:center;padding:36px 24px;background:#f8f9fa;border-radius:18px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 8px 30px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+                    <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#e63946,#c1121f);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                        <i class="fas fa-truck-fast" style="color:#fff;font-size:26px;"></i>
+                    </div>
+                    <h4 style="font-weight:700;color:#1a1a2e;margin-bottom:8px;" data-en="Fast Delivery Across Egypt" data-ar="توصيل سريع في جميع أنحاء مصر">Fast Delivery Across Egypt</h4>
+                    <p style="color:#666;font-size:.95rem;" data-en="Reliable and timely delivery to your location." data-ar="توصيل موثوق وفي الوقت المناسب إلى موقعك.">Reliable and timely delivery to your location.</p>
+                </div>
+                <div class="scroll-animate" style="text-align:center;padding:36px 24px;background:#f8f9fa;border-radius:18px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 8px 30px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+                    <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#e63946,#c1121f);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                        <i class="fas fa-store" style="color:#fff;font-size:26px;"></i>
+                    </div>
+                    <h4 style="font-weight:700;color:#1a1a2e;margin-bottom:8px;" data-en="Flexible Pickup Options" data-ar="خيارات استلام مرنة">Flexible Pickup Options</h4>
+                    <p style="color:#666;font-size:.95rem;" data-en="Convenient pickup arrangements to suit your schedule." data-ar="ترتيبات استلام مريحة تناسب جدولك الزمني.">Convenient pickup arrangements to suit your schedule.</p>
+                </div>
+                <div class="scroll-animate" style="text-align:center;padding:36px 24px;background:#f8f9fa;border-radius:18px;transition:transform .3s,box-shadow .3s;" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 8px 30px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+                    <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#e63946,#c1121f);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                        <i class="fas fa-shield-halved" style="color:#fff;font-size:26px;"></i>
+                    </div>
+                    <h4 style="font-weight:700;color:#1a1a2e;margin-bottom:8px;" data-en="Trusted & Certified" data-ar="موثوق ومعتمد">Trusted & Certified</h4>
+                    <p style="color:#666;font-size:.95rem;" data-en="Official certified products with guaranteed quality." data-ar="منتجات معتمدة رسميًا بجودة مضمونة.">Official certified products with guaranteed quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 style="font-size:clamp(1.6rem,3.5vw,2.4rem);margin-bottom:12px;" data-en="Your Partner for Safe, Reliable, and Efficient Engineering Solutions" data-ar="شريكك لحلول هندسية آمنة وموثوقة وفعّالة">Your Partner for Safe, Reliable, and Efficient Engineering Solutions</h2>
+                <p data-en="Get in touch with our team today." data-ar="تواصل مع فريقنا اليوم.">Get in touch with our team today.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+201014125240" class="btn btn-primary" data-en="Call +20 101 412 5240" data-ar="اتصل +20 101 412 5240">Call +20 101 412 5240</a>
+                    <a href="https://wa.me/201014125240" class="btn btn-secondary" target="_blank" data-en="WhatsApp Us" data-ar="راسلنا على واتساب"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
                 </div>
             </div>
         </div>
@@ -132,6 +217,18 @@
                         </div>
                     </div>
                     <p data-en="Your trusted partner for premium cables, professional tools, and networking equipment. Committed to quality and reliability since 2009." data-ar="شريكك الموثوق للكابلات الممتازة والأدوات الاحترافية ومعدات الشبكات. ملتزمون بالجودة والموثوقية منذ 2009.">Your trusted partner for premium cables, professional tools, and networking equipment. Committed to quality and reliability since 2009.</p>
+                
+                    <div id="footer-suppliers" class="footer-suppliers" style="margin-top: 25px;">
+                        <h4 data-en="Our Trusted Suppliers" data-ar="موردينا المعتمدين" style="font-size: 14px; margin-bottom: 15px; color: #fff; text-transform: uppercase; letter-spacing: 1px;">Our Trusted Suppliers</h4>
+                        <div class="supplier-logos" style="display: flex; gap: 15px; align-items: center;">
+                            <div class="supplier-logo" style="background: #fff; padding: 6px; border-radius: 8px; width: 80px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2);" title="ECAB Cables">
+                                <img src="images/ecab-logo.png" alt="ECAB Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                            </div>
+                            <div class="supplier-logo" style="background: #fff; padding: 6px; border-radius: 8px; width: 80px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2); font-size: 12px; font-weight: 900; color: #c1121f; text-align: center; letter-spacing: 1px;" title="Bavaria Fire Fighting">
+                                BAVARIA
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="footer-links">
                     <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>

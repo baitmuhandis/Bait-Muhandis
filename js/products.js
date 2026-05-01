@@ -180,18 +180,13 @@ const productData = {
         ],
         options: [
             { 
-                label: 'Fire Hose Reel', 
-                value: 'Automatic swing-out reel', 
-                description: '30m high-quality rubber hose on a manual or automatic swing-out reel system.',
-                image: 'images/fire-fighting/options/fire-hose-reel-red.png'
-            },
-            { 
                 label: 'Delivery Hosereel', 
                 value: 'Reinforced Rubber Hose (19mm / 25mm)', 
                 description: 'European-made reinforced rubber delivery hose reel. Standard components for fire cabinets with 19 mm (¾ inch) x 30 m / 25 mm (1 inch) x 30 m. Built for up to 12 bar working pressure and fully EN694 approved.',
-                image: 'images/fire-fighting/options/delivery-hosereel-red.png',
+                image: 'images/fire-fighting/options/delivery-hosereel-new.png',
+                video: 'videos/delivery-hosereel.mp4',
                 images: [
-                    'images/fire-fighting/options/delivery-hosereel-red.png',
+                    'images/fire-fighting/options/delivery-hosereel-new.png',
                     'images/fire-fighting/options/delivery-hosereel-product.png',
                     'images/fire-fighting/options/delivery-hosereel-ds.png'
                 ],
@@ -203,21 +198,6 @@ const productData = {
                     { label: 'Hose Bursting Pressure', value: 'Over 42 bar' },
                     { label: 'Hose Connection', value: 'Bosch pressed collet' },
                     { label: 'Approval', value: 'EN694' }
-                ]
-            },
-            { 
-                label: 'Landing Valve', 
-                value: '34° Outlet for 25mm Hose', 
-                description: '34° Outlet Landing Valve (fire valve) designed for 25 mm (1 inch) hose diameters.',
-                image: 'images/fire-fighting/options/landing-valve-34.png',
-                images: [
-                    'images/fire-fighting/options/landing-valve-34.png',
-                    'images/fire-fighting/options/landing-valve-34-ds.png'
-                ],
-                specs: [
-                    { label: 'Inlet thread', value: 'G 1' },
-                    { label: 'Outlet male', value: 'G 1 - Brass Nipple - for 25 mm (1 inch) crimped' },
-                    { label: 'Weight', value: '0.450 kg' }
                 ]
             },
             { 
@@ -236,26 +216,6 @@ const productData = {
                     { label: 'Inlet / Outlet', value: '1 1/2" / 2 1/2"' },
                     { label: 'Connection Type', value: 'Double Female / Female x Male' },
                     { label: 'Approval', value: 'UL and FM' }
-                ]
-            },
-            {
-                label: 'Multipurpose Water Nozzle', 
-                value: 'Jet and spray nozzle (19mm / 25mm)', 
-                description: 'BAVARIA Multipurpose water nozzle for hose diameter 19 mm (3/4 inch) / 25 mm (1 inch) with jet and spray operation mode.',
-                image: 'images/fire-fighting/options/bavaria-water-nozzle.png',
-                images: [
-                    'images/fire-fighting/options/bavaria-water-nozzle.png',
-                    'images/fire-fighting/options/bavaria-water-nozzle-ds.png'
-                ],
-                specs: [
-                    { label: 'Type', value: 'BAVARIA' },
-                    { label: 'Origin', value: 'German made' },
-                    { label: 'Material', value: 'Copper alloy, external polymer cover, rubber impact ring' },
-                    { label: 'Operation Mode', value: 'Multipurpose (jet and spray) nozzle' },
-                    { label: 'Flow Rate', value: 'up to 72 l/min at 6 bar' },
-                    { label: 'Max Working Pressure', value: '16 bar' },
-                    { label: 'Max Throw Range', value: '21 m at 6 bar, at full jet' },
-                    { label: 'Hose Tail', value: '1 inch' }
                 ]
             },
             {
@@ -313,6 +273,34 @@ const productData = {
                     { label: 'Dimensions', value: '258 x 100 x 233 mm' },
                     { label: 'Weight', value: '1.5 kg' },
                     { label: 'Inlet Fitting', value: 'Tail ND 27.5 mm' }
+                ]
+            },
+            {
+                label: 'BAVARIA Water Branchpipe',
+                value: '64mm (2½") / 38mm (1½") hose',
+                description: 'BAVARIA high-strength aluminium alloy water branchpipe for hose diameter 64 mm (2½ inch) / 38 mm (1½ inch). Full jet operation with ball valve and 2.5 inch instantaneous coupling BS 336. Maximum output of 215 l/min with a throw range of up to 29 m.',
+                image: 'images/fire-fighting/options/bavaria-branchpipe.jpg',
+                images: [
+                    'images/fire-fighting/options/bavaria-branchpipe.jpg'
+                ],
+                video: 'videos/bavaria-branchpipe.mp4',
+                specs: [
+                    { label: 'Type', value: 'BAVARIA' },
+                    { label: 'Material', value: 'High strength aluminium alloy' },
+                    { label: 'Operation Mode', value: 'Full jet' },
+                    { label: 'Optimum Working Pressure Range', value: '5-8 bar' },
+                    { label: 'Max. Output', value: '215 l/min when the ball valve is completely opened' },
+                    { label: 'Max. Throw Range', value: '29 m' },
+                    { label: 'Coupling Type', value: '2.5 inch instantaneous coupling BS 336' },
+                    { label: 'Hose Diameter', value: '64 mm (2½ inch) / 38 mm (1½ inch)' }
+                ],
+                features: [
+                    'High-strength aluminium alloy body',
+                    'Full jet operation mode',
+                    'Ball valve for instant flow control',
+                    'Max output 215 l/min at full open',
+                    '29 m maximum throw range',
+                    '2.5 inch BS 336 instantaneous coupling'
                 ]
             },
             /* {
@@ -364,19 +352,14 @@ const productData = {
             'Equipped with photo luminescent sign for emergency visibility'
         ],
         options: [
-            { 
-                label: 'Fire Hose Reel', 
-                value: 'Automatic swing-out reel', 
-                description: '30m high-quality rubber hose on a manual or automatic swing-out reel system.',
-                image: 'images/fire-fighting/options/fire-hose-reel-red.png'
-            },
             {
                 label: 'Delivery Hosereel',
                 value: 'Reinforced Rubber Hose (19mm / 25mm)',
                 description: 'European-made reinforced rubber delivery hose reel. Standard components for fire cabinets with 19 mm (¾ inch) x 30 m / 25 mm (1 inch) x 30 m. Built for up to 12 bar working pressure and fully EN694 approved.',
-                image: 'images/fire-fighting/options/delivery-hosereel-red.png',
+                image: 'images/fire-fighting/options/delivery-hosereel-new.png',
+                video: 'videos/delivery-hosereel.mp4',
                 images: [
-                    'images/fire-fighting/options/delivery-hosereel-red.png',
+                    'images/fire-fighting/options/delivery-hosereel-new.png',
                     'images/fire-fighting/options/delivery-hosereel-product.png',
                     'images/fire-fighting/options/delivery-hosereel-ds.png'
                 ],
@@ -388,21 +371,6 @@ const productData = {
                     { label: 'Hose Bursting Pressure', value: 'Over 42 bar' },
                     { label: 'Hose Connection', value: 'Bosch pressed collet' },
                     { label: 'Approval', value: 'EN694' }
-                ]
-            },
-            { 
-                label: 'Landing Valve', 
-                value: '34° Outlet for 25mm Hose', 
-                description: '34° Outlet Landing Valve (fire valve) designed for 25 mm (1 inch) hose diameters.',
-                image: 'images/fire-fighting/options/landing-valve-34.png',
-                images: [
-                    'images/fire-fighting/options/landing-valve-34.png',
-                    'images/fire-fighting/options/landing-valve-34-ds.png'
-                ],
-                specs: [
-                    { label: 'Inlet thread', value: 'G 1' },
-                    { label: 'Outlet male', value: 'G 1 - Brass Nipple - for 25 mm (1 inch) crimped' },
-                    { label: 'Weight', value: '0.450 kg' }
                 ]
             },
             { 
@@ -421,26 +389,6 @@ const productData = {
                     { label: 'Inlet / Outlet', value: '1 1/2" / 2 1/2"' },
                     { label: 'Connection Type', value: 'Double Female / Female x Male' },
                     { label: 'Approval', value: 'UL and FM' }
-                ]
-            },
-            {
-                label: 'Multipurpose Water Nozzle', 
-                value: 'Jet and spray nozzle (19mm / 25mm)', 
-                description: 'BAVARIA Multipurpose water nozzle for hose diameter 19 mm (3/4 inch) / 25 mm (1 inch) with jet and spray operation mode.',
-                image: 'images/fire-fighting/options/bavaria-water-nozzle.png',
-                images: [
-                    'images/fire-fighting/options/bavaria-water-nozzle.png',
-                    'images/fire-fighting/options/bavaria-water-nozzle-ds.png'
-                ],
-                specs: [
-                    { label: 'Type', value: 'BAVARIA' },
-                    { label: 'Origin', value: 'German made' },
-                    { label: 'Material', value: 'Copper alloy, external polymer cover, rubber impact ring' },
-                    { label: 'Operation Mode', value: 'Multipurpose (jet and spray) nozzle' },
-                    { label: 'Flow Rate', value: 'up to 72 l/min at 6 bar' },
-                    { label: 'Max Working Pressure', value: '16 bar' },
-                    { label: 'Max Throw Range', value: '21 m at 6 bar, at full jet' },
-                    { label: 'Hose Tail', value: '1 inch' }
                 ]
             },
             {
@@ -500,7 +448,35 @@ const productData = {
                     { label: 'Inlet Fitting', value: 'Tail ND 27.5 mm' }
                 ]
             },
-            /* {
+             {
+                label: 'BAVARIA Water Branchpipe',
+                value: '64mm (2½") / 38mm (1½") hose',
+                description: 'BAVARIA high-strength aluminium alloy water branchpipe for hose diameter 64 mm (2½ inch) / 38 mm (1½ inch). Full jet operation with ball valve and 2.5 inch instantaneous coupling BS 336. Maximum output of 215 l/min with a throw range of up to 29 m.',
+                image: 'images/fire-fighting/options/bavaria-branchpipe.jpg',
+                images: [
+                    'images/fire-fighting/options/bavaria-branchpipe.jpg'
+                ],
+                video: 'videos/bavaria-branchpipe.mp4',
+                specs: [
+                    { label: 'Type', value: 'BAVARIA' },
+                    { label: 'Material', value: 'High strength aluminium alloy' },
+                    { label: 'Operation Mode', value: 'Full jet' },
+                    { label: 'Optimum Working Pressure Range', value: '5-8 bar' },
+                    { label: 'Max. Output', value: '215 l/min when the ball valve is completely opened' },
+                    { label: 'Max. Throw Range', value: '29 m' },
+                    { label: 'Coupling Type', value: '2.5 inch instantaneous coupling BS 336' },
+                    { label: 'Hose Diameter', value: '64 mm (2½ inch) / 38 mm (1½ inch)' }
+                ],
+                features: [
+                    'High-strength aluminium alloy body',
+                    'Full jet operation mode',
+                    'Ball valve for instant flow control',
+                    'Max output 215 l/min at full open',
+                    '29 m maximum throw range',
+                    '2.5 inch BS 336 instantaneous coupling'
+                ]
+            },
+           /* {
                 label: \u0027Gate Valve\u0027, 
                 value: '1.5" or 2.5" inch', 
                 description: 'Forged brass finished gate valve used as a Fire Dept. outlet connection. UL/FM approved.',
@@ -2143,6 +2119,7 @@ function showProductModal(productId, addonLabel = null) {
                 code: product.code + '-ACC',
                 description: addon.description,
                 images: addon.images || [addon.image],
+                video: addon.video || null,
                 specs: addon.specs || [{ label: 'Type', value: addon.value }],
                 features: addon.features || [],
                 options: []
@@ -2205,14 +2182,30 @@ function showProductModal(productId, addonLabel = null) {
                              alt="Image ${idx+1}" onerror="this.style.display='none'">
                     `).join('')}
                 </div>` : ''}
+                ${product.video ? `
+                <div class="modal-video-container" style="margin-top: 14px; border-radius: 10px; overflow: hidden;">
+                    <video controls style="width:100%; border-radius:10px; display:block; background:#000;" preload="metadata">
+                        <source src="${product.video}" type="video/mp4">
+                    </video>
+                </div>` : ''}
             </div>
             <div class="modal-hero-info">
                 <div class="modal-product-badge"><i class="fas fa-tag"></i> ${product.code}</div>
                 <h2 class="modal-product-name" data-en="${product.name}" data-ar="${product.name_ar || product.name}">${product.name}</h2>
                 <div class="modal-product-desc" data-en='${product.description}' data-ar='${product.description_ar || product.description}'>${product.description}</div>
-                <a href="mailto:baitmuhandis@gmail.com" class="btn btn-primary modal-cta" onclick="closeProductModal()" data-en="Request a Quote" data-ar="طلب عرض سعر">
-                    <i class="fas fa-phone"></i> Request a Quote
-                </a>
+                ${(() => {
+                    const isNetworking = productId.startsWith('cable-') || 
+                                       productId.startsWith('faceplate-') || 
+                                       productId.startsWith('keystone-') || 
+                                       productId.startsWith('patch-panel-') || 
+                                       productId.startsWith('modular-rack-');
+                    const phone = isNetworking ? '+201014125240' : '+201105410176';
+                    const callTextEn = `Call ${phone}`;
+                    const callTextAr = `اتصل بنا ${phone}`;
+                    return `<a href="tel:${phone}" class="btn btn-primary modal-cta" data-en="${callTextEn}" data-ar="${callTextAr}">
+                        <i class="fas fa-phone"></i> ${callTextEn}
+                    </a>`;
+                })()}
                 <a href="${product.pdf ? product.pdf : '#'}" class="btn btn-secondary modal-cta" target="_blank" data-en="Technical PDF" data-ar="ملف فني" style="margin-left: 10px;">
                     <i class="fas fa-file-pdf"></i> Technical PDF
                 </a>
@@ -2221,30 +2214,33 @@ function showProductModal(productId, addonLabel = null) {
 
         <!-- Tabs -->
         <div class="modal-tabs">
-            <button class="modal-tab active" data-tab="overview" data-en="Overview" data-ar="نظرة عامة">
-                <i class="fas fa-info-circle"></i> Overview
+            <button class="modal-tab active" data-tab="overview" data-en="Product Details" data-ar="تفاصيل المنتج">
+                <i class="fas fa-info-circle"></i> <span data-en="Product Details" data-ar="تفاصيل المنتج">Product Details</span>
             </button>
-            <button class="modal-tab" data-tab="technical" data-en="Technical Specs" data-ar="المواصفات الفنية">
-                <i class="fas fa-flask"></i> Technical Specs
-            </button>
+            ${options.length > 0 ? `
+            <button class="modal-tab" data-tab="optional" data-en="Optional Accessories" data-ar="ملحقات اختيارية">
+                <i class="fas fa-plus-circle"></i> Optional
+            </button>` : ''}
         </div>
 
         <!-- Tab Panels -->
         <div class="modal-tab-panels">
             <div class="modal-tab-panel active" data-panel="overview">
+                <h3 class="modal-section-title" data-en="Key Features" data-ar="المميزات الرئيسية"><i class="fas fa-star"></i> Key Features</h3>
                 ${featuresHtml
                     ? `<ul class="modal-features-list">${featuresHtml}</ul>`
                     : `<p class="no-data-msg" data-en="No feature list available." data-ar="لا توجد قائمة مميزات متاحة."><i class="fas fa-info-circle"></i> No feature list available.</p>`}
                 
-                ${options.length > 0 ? `
-                    <div class="modal-section-divider"></div>
-                    <h3 class="modal-section-title" data-en="Optional Accessories" data-ar="ملحقات اختيارية"><i class="fas fa-plus-circle"></i> Optional Accessories</h3>
-                    ${optionalHtml}
-                ` : ''}
-            </div>
-            <div class="modal-tab-panel" data-panel="technical">
+                <div class="modal-section-divider"></div>
+                <h3 class="modal-section-title" data-en="Technical Specifications" data-ar="المواصفات الفنية"><i class="fas fa-flask"></i> Technical Specifications</h3>
                 ${techHtml}
             </div>
+
+            ${options.length > 0 ? `
+            <div class="modal-tab-panel" data-panel="optional">
+                <h3 class="modal-section-title" data-en="Optional Accessories" data-ar="ملحقات اختيارية"><i class="fas fa-plus-circle"></i> Optional Accessories</h3>
+                ${optionalHtml}
+            </div>` : ''}
         </div>
     `;
 
