@@ -2323,3 +2323,16 @@ body.rtl .dimensions-table .row-label {
 
 
 
+ 
+ . p r o d u c t - i t e m . f u l l - g r i d - i t e m   {  
+         g r i d - c o l u m n :   1   /   - 1 ;  
+ }  
+ . p r o d u c t - i t e m . f u l l - g r i d - i t e m   . p r o d u c t - i m g   {  
+         h e i g h t :   a u t o ;  
+ }  
+ . p r o d u c t - i t e m . f u l l - g r i d - i t e m   . p r o d u c t - i m g   i m g   {  
+         w i d t h :   1 0 0 % ;  
+         h e i g h t :   a u t o ;  
+         o b j e c t - f i t :   c o v e r ;  
+ }  
+ 

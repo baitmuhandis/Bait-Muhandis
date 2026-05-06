@@ -1074,7 +1074,7 @@ const productData = {
         code: 'PC-LV-001',
         description: 'Low voltage power cables with cross-linked polyethylene (XLPE) insulation for superior thermal and electrical performance. Suitable for fixed installation in industrial, commercial, and infrastructure applications.',
         images: [
-            'images/cables/power-cable-strands.jpg',
+            'images/cables/power-cable-grid.png',
             'images/cables/power-cable-spool.jpg'
         ],
         datasheetImage: 'images/cables/power-datasheet.png',
@@ -1100,7 +1100,7 @@ const productData = {
         code: 'PC-HV-002',
         description: 'High voltage underground power cables designed for utility distribution networks and large industrial facilities. XLPE insulation with copper wire screen provides excellent electrical performance and reliability.',
         images: [
-            'images/cables/power-cable-spool.jpg',
+            'images/cables/power-cable-grid.png',
             'images/cables/power-cable-strands.jpg'
         ],
         datasheetImage: 'images/cables/power-datasheet.png',
@@ -1126,7 +1126,7 @@ const productData = {
         code: 'PC-SWA-003',
         description: 'Steel wire armored (SWA) cables provide mechanical protection for underground installation and industrial power distribution. The galvanized steel wire armor offers excellent protection against impact and rodent damage.',
         images: [
-            'images/cables/power-cable-strands.jpg',
+            'images/cables/power-cable-grid.png',
             'images/cables/power-cable-spool.jpg'
         ],
         datasheetImage: 'images/cables/power-datasheet.png',
@@ -1152,7 +1152,7 @@ const productData = {
         code: 'PC-FLX-004',
         description: 'Highly flexible rubber cables designed for portable equipment, temporary power, and industrial applications requiring frequent movement. The rubber compound provides excellent flexibility even in cold conditions.',
         images: [
-            'images/cables/power-cable-spool.jpg',
+            'images/cables/power-cable-grid.png',
             'images/cables/power-cable-strands.jpg'
         ],
         datasheetImage: 'images/cables/power-datasheet.png',
@@ -1181,6 +1181,7 @@ const productData = {
         description: 'Cat 6 U/UTP, 4 twisted pairs, Solid Copper 23 AWG with LSZH Sheathing, White. Packaging: 305 m - Coil in Box.',
         images: [
             'images/ethernet-cable-structure.jpg',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
             'images/ethernet/cat6-grey-coil.png',
@@ -1209,6 +1210,7 @@ const productData = {
         description: 'Cat 6 F/UTP, 4 twisted pairs, Solid Copper 23 AWG with foil cover, LSZH Sheathing, White. Packaging: 500 m - Coil in Box.',
         images: [
             'images/ethernet/cat6-futp-infographic.png',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet-cable-structure.jpg',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
@@ -1238,6 +1240,7 @@ const productData = {
         description: 'Cat 6 SF/UTP, 4 twisted pairs, Solid Copper 23 AWG, Aluminium cover, Shield, LSZH Sheathing, White. Packaging: 500 m - Coil in Box.',
         images: [
             'images/ethernet/cat6-sfutp-infographic.png',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet-cable-structure.jpg',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
@@ -1269,6 +1272,7 @@ const productData = {
         description: 'Cat 6A U/UTP, 4 twisted pairs, Solid Copper 23 AWG with LSZH Sheathing, White. Packaging: 305 m - Coil in Box.',
         images: [
             'images/ethernet-cable-structure.jpg',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
             'images/ethernet/cat6-grey-coil.png',
@@ -1297,6 +1301,7 @@ const productData = {
         description: 'Cat 6A U/FTP, 4 foil-covered twisted pairs, with tinned Copper drain wire LSZH Sheathing, White. Packaging: 500 m - Coil on Drum.',
         images: [
             'images/ethernet-cable-structure.jpg',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
             'images/ethernet/cat6-grey-coil.png',
@@ -1325,6 +1330,7 @@ const productData = {
         description: 'Cat 6A S/FTP, 4 foil-covered twisted pairs, with tinned Copper drain wire, Shield, LSZH Sheathing, White. Packaging: 500 m - Coil on Drum.',
         images: [
             'images/ethernet-cable-structure.jpg',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
             'images/ethernet/cat6-grey-coil.png',
@@ -1353,6 +1359,7 @@ const productData = {
         description: 'Cat 6A F/FTP, 4 foil-covered twisted pairs, with tinned copper drain wire, Aluminium cover, LSZH Sheath, White. Packaging: 500 m - Coil on Drum.',
         images: [
             'images/ethernet-cable-structure.jpg',
+            'images/ethernet/cat6-grid.png',
             'images/ethernet/cat6-purple-detail.png',
             'images/ethernet/cat6-cross-section.png',
             'images/ethernet/cat6-grey-coil.png',
@@ -1459,7 +1466,7 @@ const productData = {
         code: 'ETH-(2/3)C-PVC',
         description: 'Thermo cables are designed for high-temperature applications with a flexible PVC jacket and 2 or 3 cores of flexible copper. Suitable for indoor wiring in mobile and lightweight households, HVAC systems, control and automation, and sensor wiring.',
         images: [
-            'images/cables/thermo-cable-structure.png',
+            'images/cables/thermo-cable-grid.png',
             'images/cables/thermo-cable-datasheet.png',
             'images/cables/thermo-cable-datasheet-2.png'
         ],
@@ -1487,7 +1494,7 @@ const productData = {
         code: 'PW-1x-ST.C-PVC',
         description: 'Electrical single-core power wire with 7 stranded copper conductors and PVC insulation. Available in Red, Yellow, Blue, Black and Yellow-Green. Suitable for low to medium power distribution in residential, commercial, and industrial facilities.',
         images: [
-            'images/cables/power-wire-structure.png',
+            'images/cables/power-cable-grid.png',
             'images/cables/power-wire-datasheet.png'
         ],
         specs: [
@@ -1514,7 +1521,7 @@ const productData = {
         code: 'EUCA-6SC-WH',
         description: 'High-performance 75-ohm coaxial cable with a solid copper conductor and dual-layer shielding (Aluminium Foil + AL Braid). Engineered for superior signal integrity in satellite, cable television, and high-frequency broadband applications.',
         images: [
-            'images/cables/coaxial-rg6-structure.png',
+            'images/cables/coaxial-cable-grid.png',
             'images/cables/coaxial-rg6-datasheet.png'
         ],
         specs: [
@@ -1541,7 +1548,7 @@ const productData = {
         code: 'EUCA-11SC-WH',
         description: 'Heavy-duty 75-ohm coaxial cable with a 1.63mm (14 AWG) solid copper conductor and high-density shielding. Specifically designed for long-range high-frequency signal transmission up to 100m in satellite and broadband infrastructures.',
         images: [
-            'images/cables/coaxial-rg11-structure.png',
+            'images/cables/coaxial-cable-grid.png',
             'images/cables/coaxial-rg11-datasheet.png'
         ],
         specs: [
@@ -1569,6 +1576,7 @@ const productData = {
         description: 'Fire Alarm Cable designed for power-limited fire alarm and signal circuits. Features pairs of stranded BC 2.5mm copper conductors with PVC insulation, AL Foil, and a PVC jacket — Fire Resistant, Red. Compliant with NEC Article 760 and IEC standards.',
         images: [
             'images/cables/fire-alarm-cable-structure.png',
+            'images/cables/fire-alarm-grid.png',
             'images/cables/fire-alarm-cable-datasheet.png'
         ],
         specs: [
@@ -1596,6 +1604,7 @@ const productData = {
         description: 'Fire Alarm Cable with pairs of stranded BC 1.5mm copper conductors, PVC insulation, AL Foil shielding and a Fire-Resistant Red PVC jacket. Designed for power-limited fire alarm circuits, compliant with NEC Article 760 and IEC standards.',
         images: [
             'images/cables/fire-alarm-1-5mm-structure.png',
+            'images/cables/fire-alarm-grid.png',
             'images/cables/fire-alarm-1-5mm-datasheet.png'
         ],
         specs: [
